@@ -1,0 +1,38 @@
+{
+    "name": "ut-queue",
+    "version": "5.0.0",
+    "dependencies": {
+        "ut-error": "^5.4.9"
+    },
+    "devDependencies": {
+        "ut-tools": "^5.23.2"
+    },
+    "peerDependencies": {
+      "ut-bus": "^5.17.0"
+    },
+    "description": "UT queue",
+    "scripts": {
+      "lint": "ut-lint .",
+      "release": "ut-release",
+      "changelog": "ut-changelog",
+      "check": "ut-check",
+      "cover": "ut-cover",
+      "lint-js": "ut-lint-js .",
+      "postpublish": "ut-postpublish",
+      "postversion": "ut-postversion",
+      "precommit": "ut-precommit",
+      "prepublish": "ut-prepublish",
+      "prepush": "ut-prepush",
+      "pretest": "ut-pretest",
+      "preversion": "ut-preversion",
+      "test": "ut-test",
+      "version": "ut-version",
+      "jenkins": "ut-jenkins",
+      "gitlab": "ut-gitlab"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:softwaregroup-bg/ut-port-httpserver.git"
+    },
+    "license": "Apache-2.0"
+  }
