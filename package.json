@@ -1,6 +1,6 @@
 {
     "name": "ut-queue",
-    "version": "5.0.0",
+    "version": "6.0.0",
     "dependencies": {
         "ut-error": "^5.4.9"
     },
