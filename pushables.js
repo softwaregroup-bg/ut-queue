@@ -6,7 +6,7 @@ module.exports = () => {
 
     const create = params => {
         let id = (params.context && params.context.conId && params.context.conId.toString()) || DEFAULT;
-        let created = queue(() => {
+        let created = queue(true, () => {
             queues.delete(id);
             console.error('deleted ' + id.toString());//remove
         });
