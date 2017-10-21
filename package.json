@@ -10,27 +10,27 @@
     },
     "description": "UT queue",
     "scripts": {
-      "lint": "ut-lint .",
-      "release": "ut-release",
-      "changelog": "ut-changelog",
-      "check": "ut-check",
-      "cover": "ut-cover",
-      "lint-js": "ut-lint-js .",
-      "postpublish": "ut-postpublish",
-      "postversion": "ut-postversion",
-      "precommit": "ut-precommit",
-      "prepublish": "ut-prepublish",
-      "prepush": "ut-prepush",
-      "pretest": "ut-pretest",
-      "preversion": "ut-preversion",
-      "test": "ut-test",
-      "version": "ut-version",
-      "jenkins": "ut-jenkins",
-      "gitlab": "ut-gitlab"
+        "lint": "ut-lint .",
+        "release": "ut-release",
+        "changelog": "ut-changelog",
+        "check": "ut-check",
+        "cover": "ut-cover",
+        "lint-js": "ut-lint-js .",
+        "postpublish": "ut-postpublish",
+        "postversion": "ut-postversion",
+        "precommit": "ut-precommit",
+        "prepublish": "ut-prepublish",
+        "prepush": "ut-prepush",
+        "pretest": "ut-pretest",
+        "preversion": "ut-preversion",
+        "test": "ut-test",
+        "version": "ut-version",
+        "jenkins": "ut-jenkins",
+        "gitlab": "ut-gitlab"
     },
     "repository": {
-      "type": "git",
-      "url": "git@github.com:softwaregroup-bg/ut-queue.git"
+        "type": "git",
+        "url": "git@github.com:softwaregroup-bg/ut-queue.git"
     },
     "license": "Apache-2.0"
-  }
+}
