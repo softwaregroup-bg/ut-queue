@@ -7,9 +7,6 @@
     "devDependencies": {
         "ut-tools": "^5.23.2"
     },
-    "peerDependencies": {
-      "ut-bus": "^5.17.0"
-    },
     "description": "UT queue",
     "scripts": {
       "lint": "ut-lint .",
