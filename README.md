@@ -16,20 +16,25 @@ This exports 1 APIs:
 
 ```javascript
 {
-    queue
+    queues
 }
 ```
 
 ## Queue public API
 
-### queue(config, event, registerCounter, end, log)
+### ```queues()``` - Returns the below API
 
-### queue.destroy()
+### ```queues.create({context, callback})``` - creates a queue
 
-### queue.add(messageAndMeta)
+- ```context``` - associate the queue with the passed context.conId or create a default queue
+- ```callback``` - optionally call this when queue ends
 
-### queue.ping()
+### ```queues.get(context)``` - finds a queue
 
-### queue.stream()
+- ```context``` - the context with which the queue is associated by context.conId or a return the default queue if context or context.conId is falsy value
 
-### queue.push(messageAndMeta)
+### ```queues.delete(context)``` - ends a queue
+
+- ```context``` - the context with which the queue is associated by context.conId or a end the default queue if context or context.conId is falsy value
+
+### ```queues.count()``` - returns the count of queues
