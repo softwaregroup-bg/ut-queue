@@ -18,12 +18,8 @@ module.exports = () => {
         create,
         get: context => queues.get((context && context.conId && context.conId.toString()) || DEFAULT),
         delete: context => {
-            let id = (context && context.conId) || DEFAULT;
-            let end = queues.get(id);
-            if (end) {
-                queues.delete(id);
-                end(true);
-            }
+            let end = queues.get((context && context.conId && context.conId.toString()) || DEFAULT);
+            end && end.end(true);
         },
         count: () => queues.size
     };
