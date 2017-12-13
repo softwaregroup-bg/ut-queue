@@ -1,14 +1,31 @@
-const queue = require('pull-pushable');
+const queue = require('./queue');
 const DEFAULT = Symbol('default');
 
 module.exports = () => {
     const queues = new Map();
 
-    const create = ({context, callback}) => {
+    const create = ({
+        min,
+        max,
+        drain,
+        drainInterval,
+        isEcho,
+        context,
+        close,
+        callback
+    }) => {
+        close = close || callback;
         let id = (context && context.conId && context.conId.toString()) || DEFAULT;
-        let created = queue(true, error => {
-            queues.delete(id);
-            callback && callback(error);
+        let created = queue({
+            close: error => {
+                queues.delete(id);
+                close && close(error);
+            },
+            min,
+            max,
+            drain,
+            drainInterval,
+            isEcho
         });
         queues.set(id, created);
         return created;
