@@ -1,3 +1,13 @@
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/softwaregroup-bg/ut-queue/compare/v6.0.2...v6.1.0) (2017-12-13)
+
+
+### Features
+
+* add support for drain notification ([a6b9965](https://github.com/softwaregroup-bg/ut-queue/commit/a6b9965))
+
+
+
 <a name="6.0.2"></a>
 ## [6.0.2](https://github.com/softwaregroup-bg/ut-queue/compare/v6.0.1...v6.0.2) (2017-11-13)
 
