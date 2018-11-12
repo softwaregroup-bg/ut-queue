@@ -1,6 +1,6 @@
 {
   "name": "ut-queue",
-  "version": "6.2.0-rc-godfather.0",
+  "version": "6.2.0-rc-godfather.1",
   "dependencies": {},
   "devDependencies": {
     "ut-tools": "^6.3.4"
