@@ -38,6 +38,9 @@ module.exports = () => {
             let end = queues.get((context && context.conId && context.conId.toString()) || DEFAULT);
             end && end.end(true);
         },
+        end: () => {
+            Array.from(queues.values()).forEach(queue => queue.end(true));
+        },
         count: () => queues.size
     };
 };
