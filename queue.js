@@ -14,7 +14,7 @@ module.exports = function queue({
     // a pushable is a source stream
     // (abort, cb) => cb(end, data)
     //
-    // when pushable is pulled,
+    // when pushable is pulled
     // keep references to abort and cb
     // so we can call back after
     // .end(end) or .push(data)
