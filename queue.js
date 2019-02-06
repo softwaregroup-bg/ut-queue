@@ -30,6 +30,7 @@ module.exports = function queue({
     }
 
     function notifyDrain() {
+        if (ended) return;
         drainTimerReset();
         if (drain && buffer.length <= min) {
             drain(buffer.length);
