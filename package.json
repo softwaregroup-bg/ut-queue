@@ -3,7 +3,7 @@
   "version": "6.2.0",
   "dependencies": {},
   "devDependencies": {
-    "ut-tools": "^6.3.4"
+    "ut-tools": "^6.11.0"
   },
   "description": "UT queue",
   "scripts": {
