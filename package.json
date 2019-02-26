@@ -1,6 +1,6 @@
 {
   "name": "ut-queue",
-  "version": "6.2.0",
+  "version": "6.2.1-accu.0",
   "dependencies": {},
   "devDependencies": {
     "tap": "^12.5.3",
