@@ -2,7 +2,7 @@
 
 Generic queue functionality
 
-## Scope
+## Scope 
 
 - Prioritization of messages
 - Overflow handling
