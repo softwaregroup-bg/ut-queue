@@ -1,3 +1,7 @@
+## [6.2.3](https://github.com/softwaregroup-bg/ut-queue/compare/v6.2.2...v6.2.3) (2023-09-29)
+
+
+
 ## [6.2.2](https://github.com/softwaregroup-bg/ut-queue/compare/v6.2.1...v6.2.2) (2020-01-17)
 
 
